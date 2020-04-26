@@ -3,7 +3,7 @@ This repository contains some Instagram Bots implemented in Python. Please use t
 
 All of the bots use the selenium library of python or better stated the selenium python API. Through this you can actually access functionalities of the [Selenium Webdriver](https://www.selenium.dev/), which automates the use of browsers. You can make browser-based regression automation suites and tests, scale and distribute scripts across many environments etc.
 
-You can also find an unofficial documentation [here](https://selenium-python.readthedocs.io/index.html).
+You can find the official documentation [here](https://www.selenium.dev/selenium/docs/api/py/api.html), as also an unofficial documentation [here](https://selenium-python.readthedocs.io/index.html).
 
 # Requirements
 In order to install all the required libraries for this project, run pip install -r requirements.txt
