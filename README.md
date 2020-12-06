@@ -1,4 +1,7 @@
-# Instagram-Bots
+<h1 align="center">
+Instagram Bots
+</h2>
+<p align="center">
 This repository contains some Instagram Bots implemented in Python. They are uploaded for educational purposes, and not for gaining engagement, followers, likes etc. Please use them wisely and have fun!
 
 All of the bots use the selenium library of python or better stated the selenium python API. Through this you can actually access functionalities of the [Selenium Webdriver](https://www.selenium.dev/), which automates the use of browsers. You can make browser-based regression automation suites and tests, scale and distribute scripts across many environments etc.
