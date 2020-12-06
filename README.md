@@ -29,10 +29,10 @@ Let's examine step by step what does this first bot do.
 3. We login and define the **hashtags** we are interested in. Let's describe now how exactly this bot works. Let's say you are interested in summer sunshine beach photos. You create a hashtag list, which in this occasion would be something like **[summer, beach, sun, sand, sunshine]**.
 4. The bot navigates recursively to the hastag list, searches for the first **thumbnail**, saves the username of the first's thumbnail profile, searches how many **likes** does this photo has and tries to find out if we already **follow** this profile 
 5. If the likes are more than a given **threshold** (you specify this threshold in line 69) and if we do not follow this profile, then:
-a. It follows the profile
-b. It appends the username of it on a list
-c. It likes the picture
-d. It makes a predefined random comment under some probability
-e. It navigates to the next thumbnail picture of the current hastag. 
+  1. It follows the profile
+  2. It appends the username of it on a list
+  3. It likes the picture
+  4. It makes a predefined random comment under some probability
+  5. It navigates to the next thumbnail picture of the current hastag. 
 6. This loop is continued as many times as defined in line 55 for each hashtag. 
 7. Finally, we create a DataFrame having the new followed accounts and we save it in a .csv file, which can be used the next time we run the script, by uncommenting lines 35 and 36.
